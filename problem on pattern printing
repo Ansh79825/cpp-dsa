@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cout<<"enter the n ";
+    cin>>n;
+    int i=1;
+    while(i<=n){
+        int k=1;
+        while(k<=n-i){
+            cout<<" ";
+            k++;
+        }
+        int j=i-1;
+        while(j>=0){
+            cout<<j;
+            j--;
+        }
+        int m=1;
+        while(m<=i-1){
+            cout<<m;
+            m++;
+        }i++;
+        cout<<endl;
+        
+    }
+    
+}/*enter the n 4
+   0
+  101
+ 21012
+3210123 */
